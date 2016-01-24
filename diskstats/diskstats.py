@@ -6,8 +6,8 @@ import json
 
 DISKSTATS_PATH = '/proc/diskstats'
 HEADERS = ['major_number', 'minor_number', 'device_name',
-           'reads_requests_completed', 'reads_requests_merged', 'reads_sectors', 'read_wait_time',
-           'writes_requests_completed', 'writes_requests_merged', 'writes_sectors', 'write_wait_time',
+           'reads_requests_completed', 'reads_requests_merged', 'reads_sectors', 'reads_wait_time',
+           'writes_requests_completed', 'writes_requests_merged', 'writes_sectors', 'writes_wait_time',
            'requests_currently_in_progress', 'io_wait_time', 'io_wait_time_weighted']
 
 # ...
